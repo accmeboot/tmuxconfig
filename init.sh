@@ -1,6 +1,11 @@
-repository = "https://github.com/tmux-plugins/tpm"
-folder = "~/.tmux/plugins/tpm"
+#! usr/bin/bash
 
-git clone $repository $folder
+mkdir plugins
+cd plugins
 
-sh cp "./.tmux.conf" ~/
+
+git clone https://github.com/tmux-plugins/tpm
+
+cd ../..
+
+cp .tmux.conf ~/
