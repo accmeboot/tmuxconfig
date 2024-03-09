@@ -6,6 +6,6 @@ cd plugins
 
 git clone https://github.com/tmux-plugins/tpm
 
-cd ../..
+cd ..
 
 cp .tmux.conf ~/
